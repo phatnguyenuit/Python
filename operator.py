@@ -41,6 +41,7 @@
     is	Trả về true nếu các biến ở hai bên toán tử cùng trỏ tới một đối tượng, nếu không là false
     is not	Trả về false nếu các biến ở hai bên toán tử cùng trỏ tới một đối tượng, nếu không là true
 
+    None và 0 trả về False còn lại trả về True
     #NOTE
     import thư viện division để phép chia ra số thực
     from __future__ import division
