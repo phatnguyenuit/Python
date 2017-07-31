@@ -15,7 +15,15 @@ hoặc del ten_dictionary để xoá tất cả
 #dict.update(dict2) update dict2 to dict
 '''
 
-import calendar
-print "Thang hien tai la:"
-cal = calendar.month(2014, 6)
-print cal
+dictA = {'name': 'PhatNguyen', 'age' :23, 'gender' : 'male'};
+print 'for loop with key and value by dict.iteritems()'
+for key, value in dictA.iteritems():
+    print key,' : ',value
+
+print 'for loop with key by dict.iterkeys()'
+for key in dictA.iterkeys():
+    print key,' : ', dictA[key]
+
+print 'for loop with key by dict.itervalues()'
+for value in dictA.itervalues():
+    print value
